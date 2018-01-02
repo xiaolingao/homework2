@@ -1,6 +1,6 @@
 <?php
 	/**
-	 * Testing
+	 * testing
 	 */
 	class Test
 	{
