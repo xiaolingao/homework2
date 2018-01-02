@@ -15,7 +15,7 @@ if (isset($_REQUEST['code'])) {
 	} catch (OAuthException $e) {
 	}
 }
-
+//什么鬼
 if ($token) {
 	$_SESSION['token'] = $token;
 	setcookie( 'weibojs_'.$o->client_id, http_build_query($token) );
